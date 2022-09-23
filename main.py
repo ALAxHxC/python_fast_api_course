@@ -1,31 +1,44 @@
 from fastapi import Request, FastAPI, HTTPException
 
+from models.feeling import Moto
+
 app = FastAPI()
 
+lista_moto: [Moto] = []
 
-lista_sentimientos = []
 
-#HOLA LAUUUU
+# HOLA LAUUUU
 @app.get("/")
-async def root():
-    return {"message": lista_sentimientos}
+async def rooto():
+    return {"message": lista_moto}
+
+@app.get("/no_abs")
+async def noabs():
+    result = map(lambda item: {
+        "nombre": item.name
+    }, lista_moto)
+    print(result)
+    return list(result)
+
+@app.get("/{name}")
+async def root(name):
+    result = filter(lambda item: item.name == name, lista_moto)
+    print(result)
+    return list(result)
+
 
 @app.post("/")
-async def add(request: Request):
-    persons = await request.json()
-    for emocion in lista_sentimientos:
-        if persons.get('feeling')==emocion.get('feeling') and persons.get('name')==emocion.get('name'):
-            raise HTTPException(status_code=400, detail="Feeling for that person already exists")
+async def add(moto: Moto):
+    lista_moto.append(moto)
+    return lista_moto
 
-    lista_sentimientos.append(await request.json())
 
-    return lista_sentimientos
+@app.put("/{name}")
+async def update(name, moto: Moto):
+    print(name)
+    for item in lista_moto:
+        if item.name == name:
+            item = moto
+            return item
 
-@app.put("/")
-async def update(request: Request):
-    persona = await request.json()
-    for emocion in lista_sentimientos:
-        if persona.get("name")== emocion.get("name"):
-            emocion["feeling"]=persona.get("feeling")
-    return lista_sentimientos
-
+    raise HTTPException(status_code=400, detail="NO SE ENCUENTRA EN LA LISTA")
