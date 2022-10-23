@@ -6,4 +6,4 @@ router = APIRouter()
 service = VehicleService()
 @router.post("/", tags=["vehicle"])
 async def create (entity:VehicleSchema, Session=Depends (get_db)):
-    return service.add(entity)
+    return service.add(entity, )

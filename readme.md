@@ -1,63 +1,87 @@
-# CURSO PYTHON
-### install dependencies
- pip install -r requirements.txt
-### run:
-uvicorn main:app --reload
-
-run: `docker compose up`
-
-### Create Mysql Url
-
-### Check Docs for [SQLAlchemy](https://docs.sqlalchemy.org/en/14/dialects/mysql.html#module-sqlalchemy.dialects.mysql.mysqldb)
-> mysql+mysqldb://<user>:<password>@<host>[:<port>]/<dbname>
-#### For us
-> mysql+mysqldb://user:password@127.0.0.1/db
-> 
-#### Create .env or set:
-
+# Create and get from ORM
+* To insert data:
 ```
-export MYSQL_URI="mysql://user:password@127.0.0.1/db"
+ session.add(ORMModel(**SchemaModel.dict()))
+ session.commit()
 ```
-##### if you use .env:
-> pip install python-dotenv
-
-then add in your main.py in the first lines:
+* to get data:
+  * one
 ```
-from dotenv import load_dotenv
-load_dotenv()
+session.query(City).filter(City.id == city.id).first()
 ```
-### create settings.py
+  * all
 ```
-class Settings(BaseSettings):
-    mysql_uri: str = os.getenv('MYSQL_URI')
+session.query(City).all()
 ```
 
-##### set orm sqlalchemy
-> pip install sqlalchemy
-
-#### Create package database_sql
-#### inside package database_sql, create a file named connection.py
+ * now create model city (See this file:  `scripts/files/cities.csv` to know properties )
+ * create migration and run
+ * create schema
+ * create folder name database_sql/queries (This folder will contains all queries needed to our api)
+ * inside this folder create a file named city.py 
+ * create a class named `CityQueries` 
+ * then add method add and all
+ * method add will add data to our database
+ * mothod all will return all data in this table
+ * create `CityServices` with methods add and all, that will call the same methods in `CityQueries` 
+ * add route post and get `/` to insert and show data
+ * congrats 
+ * now a real case upload 10000 files from csv
+ * to read csv
 ```
-import os
-
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
-
-SQLALCHEMY_DATABASE_URL = os.getenv('SQL_URI')
-
-engine = create_engine(
-    SQLALCHEMY_DATABASE_URL
-)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-Base = declarative_base()
+import csv
+with open('eggs.csv', newline='') as csvfile:
+     spamreader = csv.reader(csvfile, delimiter=',')
+     for row in spamreader:
+        print(', '.join(row))
 ```
-* [For more info](https://fastapi.tiangolo.com/tutorial/sql-databases/)
+* to make a post in python
+```
+import requests
 
-#### Add to main.py
-> Base.metadata.create_all(bind=engine)
+url = 'https://www.w3schools.com/python/demopage.php'
+myobj = {'somekey': 'somevalue'}
 
-This will connect with your database
+x = requests.post(url, json = myobj)
 
-#### Now Add Migrations 
+print(x.text)
+```
+* now read cities.csv and post this data in our api
+* rember our base url: "http://127.0.0.1:8000/city"
+* our post payload:
+```
+{
+    "id":2,
+    "name":"city test",
+    "country":"country test"
+}
+```
+* hint DictReader allows convert row in dict: 
+```
+spamreader = csv.DictReader(csvfile, delimiter=',',fieldnames=['country','id','name'])
+
+```
+* the result of DictReader you can covert to list 
+```
+#this sub list avoid first element in csv (hearders)
+ list(spamreader)[1:] 
+```
+* now delete all elements!
+* using the logic before add remove all elements
+```
+ session.query(City).filter(City.id == id).delete()
+        session.commit()
+```
+* create a script to remove all elements
+```
+response = requests.get(URL)
+    json_data = response.json()
+```
+* for delete
+```
+response = requests.delete(f'{URL}/{id}')
+```
+
+* congrats
+  * next steps: relations, batch, dependencies, async
+  
