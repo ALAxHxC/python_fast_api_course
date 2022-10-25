@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36b9f259-88e8-4ccc-b9d7-84ae180355dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/vehicle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/files/Cargue Masivo V.1 - Ciudades.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/files/cities.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/files/BC_brands.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/files/brands.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/files/BC_cities.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/files/Cargue Masivo V.1 - TipoVehículo-Marca-Linea.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/files/vehicle.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts/files" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mysql" />
@@ -65,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/files/delete_all.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/delete_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/files/load_csv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/load_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +105,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7ba1cb7a-dbb1-4ce6-a152-aa9e251173fd" name="Changes" comment="" />
+      <changelist id="36b9f259-88e8-4ccc-b9d7-84ae180355dc" name="Changes" comment="" />
       <created>1663894756673</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
