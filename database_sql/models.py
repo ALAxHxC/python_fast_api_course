@@ -15,3 +15,8 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(45))
     last_name = Column(String(45))
+class Cities(Base):
+    __tablename__ = "cities"
+    country= Column(String(45))
+    cod_name= Column(Integer, primary_key=True, index=True)
+    name= Column(String(45))
