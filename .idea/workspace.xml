@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ba1cb7a-dbb1-4ce6-a152-aa9e251173fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/python_fast_api_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_fast_api_course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database_sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ejercicios.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/feeling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/vehicle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

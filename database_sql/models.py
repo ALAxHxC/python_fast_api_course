@@ -20,3 +20,7 @@ class Cities(Base):
     country= Column(String(45))
     cod_name= Column(Integer, primary_key=True, index=True)
     name= Column(String(45))
+class Actions(Base):
+    __tablename__ = "Actions"
+    description= Column(String(45), primary_key=True)
+    medida= Column(String(1))

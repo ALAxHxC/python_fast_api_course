@@ -1,5 +1,5 @@
 from fastapi import Request, FastAPI, HTTPException
-from controllers import vehicle, cities
+from controllers import vehicle, cities, actions
 from database_sql.connection import Base, engine
 from settings import Settings
 
@@ -7,7 +7,6 @@ from settings import Settings
 app = FastAPI()
 
 settings= Settings()
-
 
 Base.metadata.create_all(bind=engine)
 
@@ -19,3 +18,4 @@ async def rooto():
 
 app.include_router(vehicle.router, prefix="/vehicle")
 app.include_router(cities.router, prefix="/cities")
+app.include_router(actions.router, prefix="/actions")
