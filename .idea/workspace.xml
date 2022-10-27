@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="36b9f259-88e8-4ccc-b9d7-84ae180355dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/files/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Screen Shot 2022-10-26 at 4.02.17 PM.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
