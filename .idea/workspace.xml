@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36b9f259-88e8-4ccc-b9d7-84ae180355dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/files/BC_brands.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/files/brands.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/files/BC_cities.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/files/Cargue Masivo V.1 - TipoVehículo-Marca-Linea.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/files/vehicle.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +43,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts/files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
+      <recent name="$PROJECT_DIR$/scripts/files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/scripts/files" />
       <recent name="$PROJECT_DIR$/mysql" />
     </key>
   </component>
