@@ -22,3 +22,8 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(45))
     last_name = Column(String(45))
+
+class Action(Base):
+    __tablename__ = "users"
+    name = Column(String(45), primary_key=True)
+    last_name = Column(String(45))

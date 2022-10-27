@@ -9,3 +9,7 @@
 > docker compose down
 * to start app:
 > uvicorn main:app --reload
+* migration
+> alembic revision --autogenerate -m "actionmodel"
+* run migration
+> alembic upgrade head  
