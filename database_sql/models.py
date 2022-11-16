@@ -24,3 +24,8 @@ class Actions(Base):
     __tablename__ = "Actions"
     description= Column(String(45), primary_key=True)
     medida= Column(String(1))
+
+class Brands(Base):
+    __tablename__ = "Brands"
+    description= Column(String(45), primary_key=True)
+    id_runt= Column(Integer, primary_key=True)
