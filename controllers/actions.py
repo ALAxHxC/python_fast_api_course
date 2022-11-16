@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 
 from database_sql.connection import get_db
 from schemas.actions import ActionsSchema
-from services.Actions import ActionsServices
+from services.actions import ActionsServices
 
 router=APIRouter()
 service=ActionsServices()

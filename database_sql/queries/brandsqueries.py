@@ -10,7 +10,9 @@ class BrandsQueries:
         try:
             session.add(Brands(**brands.dict()))
             session.commit()
-            return session.query(brands).filter(brands.description==brands.description).first()
+            #AQUI TENEIAMOS ESTE ERROR
+            #return session.query(brands).filter(brands.description==brands.description).first()
+            return session.query(Brands).filter(Brands.description == brands.description).first()
         except IntegrityError as e:
             raise HTTPException(status_code=400, detail=str(e))
     def all (sel, session:Session):

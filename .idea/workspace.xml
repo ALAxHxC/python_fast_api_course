@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7ba1cb7a-dbb1-4ce6-a152-aa9e251173fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database_sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_sql/queries/brandsqueries.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/queries/brandsqueries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/371ebad4c4fd_actionmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/371ebad4c4fd_actionmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/81700da9a789_actionmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/81700da9a789_actionmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/Actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/actions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +54,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/daniel/Documents/repos/python_fast_api_course/controllers&quot;
-  }
-}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/controllers" />

@@ -21,19 +21,19 @@ class Cities(Base):
     cod_name= Column(Integer, primary_key=True, index=True)
     name= Column(String(45))
 class Actions(Base):
-    __tablename__ = "Actions"
+    __tablename__ = "actions"
     description= Column(String(45), primary_key=True)
     medida= Column(String(1))
 
 class Brands(Base):
-    __tablename__ = "Brands"
+    __tablename__ = "brands" #se corrige gramatica
     description= Column(String(45), primary_key=True)
     id_runt= Column(Integer, primary_key=True)
 
 class Lines(Base):
-    __tablename__ = "lines"
+    __tablename__ = "lines" #se corrige gramatica
     name= Column(String(45), primary_key=True)
 
 class TypeFuel(Base):
-    __tablename__ = "Type_fuel"
+    __tablename__ = "type_fuel" #se corrige gramatica
     description= Column(String(45), primary_key=True)
