@@ -29,3 +29,11 @@ class Brands(Base):
     __tablename__ = "Brands"
     description= Column(String(45), primary_key=True)
     id_runt= Column(Integer, primary_key=True)
+
+class Lines(Base):
+    __tablename__ = "lines"
+    name= Column(String(45), primary_key=True)
+
+class TypeFuel(Base):
+    __tablename__ = "Type_fuel"
+    description= Column(String(45), primary_key=True)
