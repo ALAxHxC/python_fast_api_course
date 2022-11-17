@@ -49,20 +49,8 @@ def upgrade() -> None:
     op.create_table('vehicle',
     sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),
     sa.Column('name', sa.String(length=45), nullable=True),
-    sa.Column('city_data', sa.Integer(), nullable=True),
-    sa.Column('brand', sa.String(length=45), nullable=True),
-    sa.Column('line', sa.String(length=45), nullable=True),
-    sa.Column('type_fuel', sa.Integer(), nullable=True),
-    sa.Column('created_at', sa.DateTime(), nullable=True),
-    sa.Column('updated_at', sa.DateTime(), nullable=True),
-    sa.ForeignKeyConstraint(['brand'], ['brands.id_runt'], ),
-    sa.ForeignKeyConstraint(['city_data'], ['cities.cod_name'], ),
-    sa.ForeignKeyConstraint(['line'], ['lines.name'], ),
-    sa.ForeignKeyConstraint(['type_fuel'], ['type_fuel.id'], ),
     sa.PrimaryKeyConstraint('id')
     )
-    op.create_index(op.f('ix_vehicle_id'), 'vehicle', ['id'], unique=False)
-    op.create_index(op.f('ix_vehicle_name'), 'vehicle', ['name'], unique=True)
     # ### end Alembic commands ###
 
 

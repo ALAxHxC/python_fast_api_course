@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d72a91-a1ed-43fe-a926-e472c9762800" name="Changes" comment="" />
+    <list default="true" id="f5d72a91-a1ed-43fe-a926-e472c9762800" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/cities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/vehicle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_sql/queries/brandsqueries.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/queries/brandsqueries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_sql/queries/cityqueris.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/queries/cityqueris.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/4312897d689f_renovacion_de_modelos.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/4312897d689f_renovacion_de_modelos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/brands.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/brands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/lines.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/lines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/base_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/base_services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/brands.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/brands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/cities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/lines.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/lines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/vehicle.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

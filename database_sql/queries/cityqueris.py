@@ -10,16 +10,17 @@ class CityQueries(BaseQueries):
     def __init__(self):
         super().__init__(Cities, CitiesSchema, Cities.cod_name)
 
-    def add (self,city:CitiesSchema,session:Session):
+    def add(self, city: CitiesSchema, session: Session):
         try:
 
             session.add(Cities(**city.dict()))
             session.commit()
-            return session.query(Cities).filter(Cities.cod_name==city.cod_name).first()
+            return session.query(Cities).filter(Cities.cod_name == city.cod_name).first()
         except IntegrityError as e:
             raise HTTPException(status_code=400, detail=str(e))
-    def all (self, session:Session):
+
+    def all(self, session: Session):
         return session.query(Cities).all()
 
-
-
+    def get_by_name(self, session: Session, name: str):
+        return session.query(Cities).filter(Cities.name == name).first()

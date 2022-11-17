@@ -18,3 +18,7 @@ class BrandsQueries:
 
     def all(sel, session: Session):
         return session.query(Brands).all()
+
+# HINT
+# def get_by_runt(self, session: Session, id_runt:str):
+#    return session.query(Brands).filter(Brands.id_runt == id_runt).first()

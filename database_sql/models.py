@@ -11,15 +11,6 @@ class Vehicle(Base):
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
     name = Column(String(45), unique=True, index=True)
-    # UN CONSEJO ES AGREGARLE EL NOMBRE DE LA COLUMNA
-    city_data = Column(Integer, ForeignKey("cities.cod_name"))
-    # CUANDO TENEMOS UNA TABLE CON VARIAS LLAVES PRIMARIAS
-    brand = Column(String(45), ForeignKey("brands.id_runt"))
-    line = Column(String(45), ForeignKey("lines.name"))
-    type_fuel = Column(Integer, ForeignKey("type_fuel.id"))
-    # CAMPOS DE TRAZABILIDAD
-    created_at = Column(DateTime, default=datetime.now)
-    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)
 
 
 class User(Base):
@@ -52,6 +43,8 @@ class Brands(Base):
 class Lines(Base):
     __tablename__ = "lines"  # se corrige gramatica
     name = Column(String(45), primary_key=True)
+    #hint
+    #id_brand = Column(ForeignKey("brands.id_runt"), nullable=True)
 
 
 class TypeFuel(Base):
