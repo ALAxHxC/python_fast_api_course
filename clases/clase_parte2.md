@@ -1,47 +1,22 @@
-## Scenario
+## Dejemos de retrabajar tanto
 
-1) Un desarrollador hizo cambios en el codigo, para optimizarlo y mejorar reglas, esto implica que debemos cargar nuevamente la base de datos
-   * cuales son las tablas existentes?
-   * en mysql worbench ejecutamos
-   ```
-   use db;
-   show tables;
-    ```
-   * borramos la base de datos
-   ````
-    drop database db;
-    create database db;
-   ````
-   * volvemos a correr las migraciones
-   `alembic upgrade head`
-   * Cuales son las nuevas tablas?
-   * Estuviste de acuerdo con los cambios?
-   * que harias de diferente?
-   * que se puede mejorar?
-   
-2) Habilitamos la edicion, busqueda por id y eliminacion
-   * Recordemos que para ejecutar queries nesecitamos:
-     * un Model (De SQLALCHEMY)
-     * Una Schema (Modelo de negocio)
-     * Una propiedad por la cual buscar
-   
-3) Cargar CSV's
-   1) vamos a cargar el de ciudades
-      1) 
-4) empezamos a crear el modelo de vehiculo
-   1) deseamos saber
-      1) marca
-      2) linea
-      3) fecha de lanzamiento
-      4) tipo de combustible
-   
-5) empezamos a crear el nuevo modelo de usuario-vehiculo
-   1) deseamos saber
-      1) matricula
-      2) ciudad
-      3) usuario
-      4) 
-    
+## Creamos un CRUD base
+* Debemos habilitar la edicion, busqueda y eliminacion de datos
+* Recordemos
+  * __model__: es un base model de sqlalchemy
+  * __id_property__: es una propiedad por la que podemos buscar
+  * la funcion filter recibe un parametros de busqueda, propiedades de los modelos
+  * entity: es una schema
+    * Agregar
+    ```session.add(self.__model__(**entity.dict()))```
+    * Buscar por una propiedad
+    ``` session.query(self.__model__).filter(self.__id_property__ == id_entity).first() ```
+    * Eliminar todas las coincidencias
+    ```session.query(self.__model__).filter(self.__id_property__ == id_entity).delete()```
+## Clase generica
+    * en la carpeta database_sql/queries/base_queries.py
+
+
 
 ## Crear un query generico
 * explicar: variables privada y publicas 
@@ -104,7 +79,7 @@ def __init__(self, model: Base, schema, id_property) -> None:
         session.query(self.__model__).filter(self.__id_property__ == id_entity).delete()
         session.commit()
 ```
-* asi se ve en conjunto
+* asi se ve en conjunto (Usar esto solo de guia)
 ```
 from fastapi import HTTPException
 from pydantic import BaseModel
@@ -152,3 +127,8 @@ class BaseQueries:
         return self.get_by_id(session, id_entity)
 
 ```
+
+* Responder las siguientes preguntas
+  * Que es un modelo?
+  * Que es una schema
+  * 
