@@ -130,5 +130,4 @@ class BaseQueries:
 
 * Responder las siguientes preguntas
   * Que es un modelo?
-  * Que es una schema
-  * 
+  * Que es una schema?
