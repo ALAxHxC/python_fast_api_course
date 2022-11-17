@@ -3,20 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f5d72a91-a1ed-43fe-a926-e472c9762800" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/cities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clases/clase_parte2.md" beforeDir="false" afterPath="$PROJECT_DIR$/clases/clase_parte2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clases/clase_parte3.md" beforeDir="false" afterPath="$PROJECT_DIR$/clases/clase_parte3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clases/tareas/tarea_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/clases/tareas/tarea_videos.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/vehicle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database_sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_sql/queries/brandsqueries.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/queries/brandsqueries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_sql/queries/cityqueris.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/queries/cityqueris.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/4312897d689f_renovacion_de_modelos.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/4312897d689f_renovacion_de_modelos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/brands.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/brands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/lines.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/lines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/base_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/base_services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/brands.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/brands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/cities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/lines.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/lines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/vehicle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +58,34 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/clases" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="tarea_para_recordar_un_poco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_fast_api_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clases/tareas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clases/tareas/tarea_para_recordar_un_poco.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tarea_para_recordar_un_poco" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

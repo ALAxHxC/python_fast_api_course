@@ -41,3 +41,4 @@
  * [Como obtener por id](https://youtu.be/1LcpqzNnlTM)
  * [Agregando logica de negocio](https://youtu.be/QTzbyLTDfVc)
  * [Agregando relaciones](https://youtu.be/-o0lG_yqFYI)
+ * [Como importar a postman](https://youtu.be/BvLHePkCCAA)

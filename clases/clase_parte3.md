@@ -20,7 +20,7 @@
 * Como se vera el modelo?
 
 ```
-Class Vehicle(Base):
+class Vehicle(Base):
     __tablename__ = "vehicle"
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
@@ -42,30 +42,32 @@ HINT: Algo se me paso aqui?
 * Tambien podemos volver genericos los servicios?
 * Que es un clase generica
 ```
+
 from abc import ABC, abstractmethod
 
 from pydantic import BaseModel
+from sqlalchemy.orm import Session
 
 
 class BaseServices(ABC):
     @abstractmethod
-    def add(self, entity: BaseModel):
+    def add(self, session: Session,entity: BaseModel):
         pass
 
     @abstractmethod
-    def search(self, limit, skip):
+    def search(self,session: Session, limit, skip):
         pass
 
     @abstractmethod
-    def delete(self, id_entity):
+    def delete(self,session: Session, id_entity):
         pass
 
     @abstractmethod
-    def update(self, id_entity, entity: BaseModel):
+    def update(self, session: Session, id_entity, entity: BaseModel):
         pass
 
     @abstractmethod
-    def parcial_update(self, id_entity, params_to_update: dict):
+    def partial_update(self, session: Session, id_entity, params_to_update: dict):
         pass
 ```
 * la heradamos y eso nos hace implementar los metodos

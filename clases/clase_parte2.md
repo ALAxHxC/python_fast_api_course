@@ -16,8 +16,6 @@
 ## Clase generica
     * en la carpeta database_sql/queries/base_queries.py
 
-
-
 ## Crear un query generico
 * explicar: variables privada y publicas 
   * `__variable__` vs `variable`
