@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5d72a91-a1ed-43fe-a926-e472c9762800" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clases/clase_parte2.md" beforeDir="false" afterPath="$PROJECT_DIR$/clases/clase_parte2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clases/clase_parte3.md" beforeDir="false" afterPath="$PROJECT_DIR$/clases/clase_parte3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clases/tareas/tarea_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/clases/tareas/tarea_videos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/vehicle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/base_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/base_services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/vehicle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
