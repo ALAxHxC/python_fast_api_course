@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f5d72a91-a1ed-43fe-a926-e472c9762800" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clases/clase_parte1.md" beforeDir="false" afterPath="$PROJECT_DIR$/clases/clase_parte1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clases/clase_parte3.md" beforeDir="false" afterPath="$PROJECT_DIR$/clases/clase_parte3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/22d80b19dde4_se_agrega_marca.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/22d80b19dde4_se_agrega_marca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/cities.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,49 @@
       <recent name="$PROJECT_DIR$/clases" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.rest_explain">
+    <configuration name="function_explain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_fast_api_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/function_explain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rest_explain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_fast_api_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/rest_explain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tarea_para_recordar_un_poco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_fast_api_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rest_explain" />
+        <item itemvalue="Python.function_explain" />
         <item itemvalue="Python.tarea_para_recordar_un_poco" />
       </list>
     </recent_temporary>

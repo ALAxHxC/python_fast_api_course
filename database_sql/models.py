@@ -52,8 +52,7 @@ class Brands(Base):
 class Lines(Base):
     __tablename__ = "lines"  # se corrige gramatica
     name = Column(String(45), primary_key=True)
-    #hint
-    #id_brand = Column(ForeignKey("brands.id_runt"), nullable=True)
+    id_brand = Column(ForeignKey("brands.id_runt"), nullable=True)
 
 
 class TypeFuel(Base):

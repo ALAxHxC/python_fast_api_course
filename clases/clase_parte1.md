@@ -9,7 +9,7 @@
     ```
    * borramos la base de datos
    ````
-    drop database db;
+    drop database db
     create database db;
    ````
    * volvemos a correr las migraciones

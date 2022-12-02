@@ -8,6 +8,12 @@ class CitiesServices:
     query = CityQueries()
 
     def add(self, city: CitiesSchema, session: Session):
+        name_already_exists = self.get_by_name(session, city.name)
+        if name_already_exists is not None:
+            raise HTTPException(status_code=400, detail="name already exists")
+        city_already_exists = self.get_by_id(session, city.cod_name)
+        if city_already_exists is not None:
+            raise HTTPException(status_code=400, detail="cod_name already exists")
         return self.query.add(city, session)
 
     def all(self, session: Session):

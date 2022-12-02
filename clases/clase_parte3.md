@@ -26,7 +26,7 @@ class Vehicle(Base):
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
     name = Column(String(45), unique=True, index=True)
     # UN CONSEJO ES AGREGARLE EL NOMBRE DE LA COLUMNA
-    city_data = Column(Integer, ForeignKey("cities.cod_name"))
+    city_data = Column(Integer, ForeignKey("cities.cod_name"), name="city")
     # CUANDO TENEMOS UNA TABLE CON VARIAS LLAVES PRIMARIAS
     brand = Column(String(45), ForeignKey("brands.id_runt"))
     line = Column(String(45), ForeignKey("lines.name"))
