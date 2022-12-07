@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d72a91-a1ed-43fe-a926-e472c9762800" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clases/clase_parte1.md" beforeDir="false" afterPath="$PROJECT_DIR$/clases/clase_parte1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clases/clase_parte3.md" beforeDir="false" afterPath="$PROJECT_DIR$/clases/clase_parte3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_sql/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_sql/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/22d80b19dde4_se_agrega_marca.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/22d80b19dde4_se_agrega_marca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/cities.py" afterDir="false" />
-    </list>
+    <list default="true" id="f5d72a91-a1ed-43fe-a926-e472c9762800" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
